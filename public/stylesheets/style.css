@@ -9,4 +9,10 @@ a {
 
 .body-base {
   padding: unset;
+  background-color: #343a40;
+  color: #dcddde
+}
+
+.body-base a {
+  color: #dcddde
 }
