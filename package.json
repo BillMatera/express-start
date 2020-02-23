@@ -6,11 +6,9 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "@material/top-app-bar": "^5.0.0",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
-    "material-components-web": "^5.0.0",
     "morgan": "~1.9.1"
   }
 }
