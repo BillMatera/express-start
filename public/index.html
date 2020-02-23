@@ -50,7 +50,23 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
   <script>
-      $(".base-nav-content" ).load( "/components/header-nav.html" );
+      $(".base-nav-content" ).load( "/components/header-nav.html" , function(){
+        $( document ).ready(function() {
+            console.log( "ready!" );
+            var div = document.getElementsByClassName('fa-arrow-down');
+            var down = true;
+  
+            $( '.navbar-toggler' ).on('click',function() {
+              if(down){
+                $( '.fa-arrow-down' ).addClass('arrow-up');
+              } else{
+                $( '.fa-arrow-down' ).removeClass('arrow-up');
+              }
+              down = !down;
+            });
+            
+        });
+      });
   </script>
   <script type="text/javascript" src="/javascripts/index.js"></script>
 </body>
