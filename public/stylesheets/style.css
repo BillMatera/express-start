@@ -1,6 +1,5 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -8,11 +7,111 @@ a {
 }
 
 .body-base {
-  padding: unset;
-  background-color: #343a40;
-  color: #dcddde
+  background-color: #f7f7f7; 
+  font-family: 'Montserrat', serif;
 }
 
 .body-base a {
-  color: #dcddde
+  color: #393f4d;
 }
+
+.body-base a:hover {
+  font-weight: bold;
+  color:inherit
+}
+
+.navbar-position {
+  bottom: 16px;
+  position: fixed!important;
+}
+
+.main-container {
+  text-align: center;
+  vertical-align: middle;
+  /* margin-top: 100px; */
+}
+.navbar {
+  background-color: #4cb69f;
+}
+
+.navbar-toggler {
+  outline-color: #4cb69f!important;
+}
+
+.base-nav-content {
+  max-width: 200px; 
+  float: left;
+  z-index: 10;
+  /* margin-top: 100px; */
+}
+
+.z-depth {
+  box-shadow: 0 6px 6px rgba(10,16,20,.50), 0 0 52px rgba(10,16,20,.50) !important;
+  transform: translate3d(0,0,0);
+  transition: background .4s cubic-bezier(.25,.8,.25,1),box-shadow 280ms cubic-bezier(.4,0,.2,1);
+}
+  .z-depth:hover {
+  box-shadow: 0 8px 8px 8px rgba(0,0,0,.5), 0 8px 8px 0 rgba(0,0,0,.5), 0 8px 8px 0 rgba(0,0,0,.5) !important;
+  transform: translate3d(0,0,0);
+  transition: background .4s cubic-bezier(.25,.8,.25,1),box-shadow 280ms cubic-bezier(.4,0,.2,1);
+}
+
+.logo-shadow {
+  box-shadow: 0 8px 8px 8px rgba(0,0,0,.5), 0 8px 8px 0 rgba(0,0,0,.5), 0 8px 8px 0 rgba(0,0,0,.5) !important;
+}
+
+.home-header-padding {
+  margin-top: 25px;
+}
+
+.main-div {
+  float: right;
+  bottom: 75px;
+}
+
+.fa-icon-list {
+  list-style: none;
+  margin-right: 0px;
+  margin-left: 0px;
+  overflow: hidden;
+  margin-left: 38%
+}
+
+.fa-icon-list li {
+  float: left;
+  background-color: #4cb69f;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+
+.fa-icon-list li:hover{
+  background-color: black;
+}
+
+.fa-hover:hover {
+  color:white;
+}
+
+.arrow-up {
+  /* display: inline-block;
+  animation: like 2s 3s linear; */
+  /* font-size: 40px; */
+  transform: rotate(180deg);
+  transition: transform .35s linear;
+}
+
+@keyframes like {
+  0% {
+    transform: rotate( 0deg ) scale( 1 );
+  }
+  25% {
+    transform: rotate( 60deg ) scale( 1 );
+  }
+  50% {
+    transform: rotate( 120deg ) scale( 1 );
+  }
+  75%,100% {
+    transform: rotate( 180deg ) scale( 1 );
+  }
+};
