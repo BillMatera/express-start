@@ -31,11 +31,11 @@ a {
   /* margin-top: 100px; */
 }
 .navbar {
-  background-color: #4cb69f;
+  background-color: #88BDBC;
 }
 
 .navbar-toggler {
-  outline-color: #4cb69f!important;
+  outline-color: #88BDBC!important;
 }
 
 .base-nav-content {
@@ -79,7 +79,7 @@ a {
 
 .fa-icon-list li {
   float: left;
-  background-color: #4cb69f;
+  background-color: #88BDBC;
   height: 50px;
   width: 50px;
   border-radius: 50px;
