@@ -69,6 +69,11 @@ a {
   bottom: 75px;
 }
 
+.main-profile-div {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
 .fa-icon-list {
   list-style: none;
   margin-right: 0px;
@@ -114,4 +119,16 @@ a {
   75%,100% {
     transform: rotate( 180deg ) scale( 1 );
   }
-};
+}
+
+.content-menu-position {
+  bottom: 15px;
+  right: 40px;
+}
+
+.sticky-header {
+  position: fixed!important;
+  top: 15px;
+  left: 15px;
+  width: 225px;
+}

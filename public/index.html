@@ -1,15 +1,17 @@
 <!doctype html>
 <html lang="en">
 
-
 <head>
+  <!-- include project css -->
   <link rel="stylesheet" href="/stylesheets/style.css">
   
+  <!-- include bootstrap css -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+  <!-- include google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
-  <!-- <script type="text/javascript" src="/javascripts/index.js"></script> -->
 
+  <!-- include font awesome icons -->
   <script src="https://kit.fontawesome.com/e2a027d1b1.js" crossorigin="anonymous"></script>
 </head>
 
@@ -17,15 +19,18 @@
   <div class="row">
     <!-- container for header component  -->
     <div class="base-nav-content col-lg-2"></div>
-  
+    
+    <!-- START of main body content -->
     <main class="col-lg-12 main-div">
       <div class="container main-container">
-        
+        <!-- logo img -->
         <img class="logo-shadow" src="images/Bill-Logo.png" alt="logo" height="225" width="525">
         
+        <!-- personal info headings -->
         <h1 class="home-header-padding">BILL MATERA</h1>
         <h2 class="home-header-padding">APPLICATION DEVELOPER</h2>
 
+        <!-- social media / web profile icons -->
         <ul class="fa-icon-list home-header-padding">
           <li> <i class="fab fa-github fa-2x fa-hover" style="margin-top: 15%"></i> </li>
           <li style="margin-left: 20px;"> <i class="fab fa-linkedin-in fa-2x fa-hover" style="margin-top: 15%;"></i> </li>
@@ -34,22 +39,19 @@
 
       </div>
     </main>
-
-    <!-- <i class="fab fa-github"></i>
-    <i class="fab fa-linkedin-in"></i>
-    <i class="fab fa-free-code-camp"></i> -->
-
-</div>
+    <!-- END of main body content -->
   
+  </div>
 
-
+  <!-- include jquery -->
   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <!-- <script type="text/javascript" src="/javascripts/index.js"></script> -->
 
+  <!-- inlcude bootstrap JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+  <!-- init JS -->
   <script>
       $(".base-nav-content" ).load( "/components/header-nav.html" , function(){
         $( document ).ready(function() {
@@ -71,6 +73,8 @@
         });
       });
   </script>
+
+  <!-- include project JS -->
   <script type="text/javascript" src="/javascripts/index.js"></script>
 </body>
 
