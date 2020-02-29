@@ -72,6 +72,7 @@ a {
 .main-profile-div {
   max-width: 1250px;
   margin: 0 auto;
+  height:2000px;
 }
 
 .fa-icon-list {
@@ -128,7 +129,89 @@ a {
 
 .sticky-header {
   position: fixed!important;
-  top: 15px;
-  left: 15px;
+  top: 45px;
+  right: 65px;
   width: 225px;
+}
+
+
+.project-title {
+  font-size: 2.5em; 
+  color:#026670; 
+  font-weight:800; 
+  margin-bottom:20px;
+}
+
+.project-title:hover {
+  border-bottom: 1px solid #026670;
+  width: fit-content;
+  } :after {
+    transition: transform .25s linear;
+   transform: scaleX(1);
+  }
+
+.project-link:hover{
+  text-decoration: none;
+}
+
+.portfolio-h1 {
+  font-size: 3.5em;
+}
+
+.portfolio-hr {
+  border-top:1px solid black;
+}
+
+.portfolio-section {
+  padding-top:35px;
+}
+
+.entry-padding {
+  padding-top:50px;
+}
+
+
+.resume-h2 {
+  font-size: 2.5em; 
+  padding-top:25px; 
+  border-bottom: 1.5px solid #026670;
+}
+
+.resume-objective {
+  font-size:1.4em;
+  max-width:950px;
+}
+
+.employment-entry {
+  background-color:#e3e5e8; 
+  margin:24px 0px; 
+  padding:16px;
+}
+
+.resume-h3 {
+  font-size:2.25em;
+}
+
+.resume-years {
+  margin: 4px 0px 24px 0px; 
+  font-style:italic;
+}
+
+.resume-job-title {
+  font-size:2em; 
+  border-bottom:1.5px solid #026670;
+}
+
+.resume-job-details {
+  font-size:1.5em; 
+  height:350px;
+}
+
+.resume-skills-section {
+  display:flex; 
+  flex-wrap:wrap;
+}
+
+.skills-col {
+  padding-right: 55px;
 }
