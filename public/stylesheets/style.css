@@ -140,19 +140,29 @@ a {
   color:#026670; 
   font-weight:800; 
   margin-bottom:20px;
+  width: max-content;
 }
 
-.project-title:hover {
-  border-bottom: 1px solid #026670;
-  width: fit-content;
-  } :after {
-    transition: transform .25s linear;
-   transform: scaleX(1);
-  }
+.project-title:after {
+  display:block;
+  content: '';
+  border-bottom: solid 1.75px #026670;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+
+.project-title:before{
+  position:absolute;
+  bottom:1.2em; left:0;
+  width:100%;
+}
+
+.project-title:hover:after { transform: scaleX(1) !important; }
+
 
 .project-link:hover{
-  text-decoration: none;
-}
+   text-decoration: none; 
+} 
 
 .portfolio-h1 {
   font-size: 3.5em;
