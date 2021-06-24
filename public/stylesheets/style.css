@@ -31,11 +31,11 @@ a {
   /* margin-top: 100px; */
 }
 .navbar {
-  background-color: #88BDBC;
+  background-color: #03abf4;
 }
 
 .navbar-toggler {
-  outline-color: #88BDBC!important;
+  outline-color: #03abf4!important;
 }
 
 .base-nav-content {
@@ -45,8 +45,16 @@ a {
   /* margin-top: 100px; */
 }
 
+.navbar-brand {
+  color: white!important;
+}
+
+.nav-link {
+  color: white!important;
+}
+
 .z-depth {
-  box-shadow: 0 6px 6px rgba(10,16,20,.50), 0 0 52px rgba(10,16,20,.50) !important;
+  box-shadow: 0 6px 6px rgba(10,16,20,.50);
   transform: translate3d(0,0,0);
   transition: background .4s cubic-bezier(.25,.8,.25,1),box-shadow 280ms cubic-bezier(.4,0,.2,1);
 }
@@ -57,7 +65,19 @@ a {
 }
 
 .logo-shadow {
-  box-shadow: 0 8px 8px 8px rgba(0,0,0,.5), 0 8px 8px 0 rgba(0,0,0,.5), 0 8px 8px 0 rgba(0,0,0,.5) !important;
+  /* box-shadow: 0 8px 8px 8px rgba(0,0,0,.5), 0 8px 8px 0 rgba(0,0,0,.5), 0 8px 8px 0 rgba(0,0,0,.5) !important; */
+}
+
+.fa-github {
+  color: white;
+}
+
+.fa-linkedin-in {
+  color: white;
+}
+
+.fa-free-code-camp {
+  color: white;
 }
 
 .home-header-padding {
@@ -77,15 +97,20 @@ a {
 
 .fa-icon-list {
   list-style: none;
-  margin-right: 0px;
-  margin-left: 0px;
   overflow: hidden;
-  margin-left: 38%
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.fa-middle-icon {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
 }
 
 .fa-icon-list li {
   float: left;
-  background-color: #88BDBC;
+  background-color: #03abf4;
   height: 50px;
   width: 50px;
   border-radius: 50px;
@@ -213,8 +238,8 @@ a {
 }
 
 .resume-job-details {
-  font-size:1.5em; 
-  height:350px;
+  font-size:1.3em; 
+  padding-bottom:50px;
 }
 
 .resume-skills-section {
