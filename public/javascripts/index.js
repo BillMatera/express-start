@@ -6,6 +6,6 @@ function goToLinkdIn() {
   window.location = "https://www.linkedin.com/in/william-matera-osu/";
 }
 
-function freeCodeCamp() {
-  window.location = "https://www.freecodecamp.org/";
+function goToFreeCodeCamp() {
+  window.location = "https://www.freecodecamp.org/billmatera";
 }

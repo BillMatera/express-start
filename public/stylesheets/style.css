@@ -32,6 +32,7 @@ a {
 }
 .navbar {
   background-color: #03abf4;
+  z-index: 100;
 }
 
 .navbar-toggler {
